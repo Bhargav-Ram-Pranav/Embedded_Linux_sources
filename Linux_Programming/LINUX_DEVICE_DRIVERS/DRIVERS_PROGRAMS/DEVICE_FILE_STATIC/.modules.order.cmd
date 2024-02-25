@@ -1,0 +1,1 @@
+savedcmd_/home/pranav/Documents/LINUX_DEVICE_DRIVERS/DRIVERS_PROGRAMS/DEVICE_FILE_STATIC/modules.order := {   echo /home/pranav/Documents/LINUX_DEVICE_DRIVERS/DRIVERS_PROGRAMS/DEVICE_FILE_STATIC/my_device.o; :; } > /home/pranav/Documents/LINUX_DEVICE_DRIVERS/DRIVERS_PROGRAMS/DEVICE_FILE_STATIC/modules.order

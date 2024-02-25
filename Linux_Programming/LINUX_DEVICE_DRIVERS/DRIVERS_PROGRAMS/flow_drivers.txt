@@ -1,0 +1,64 @@
+Device driver basics
+Types of device driver
+Different ways for applications to interact with the driver
+Building and testing a simple character device driver
+
+----------------------------------------------------------
+Kernel Modules
+
+get kernel sources
+configure/build/install
+device drivers (statically linked, loaded at runtime)
+Writing a module and compiling “out of tree”
+Loading and testing on the target
+Passing parameters
+Modules and the GPL license
+init/exit
+licensing
+EXPORT SYMBOL GPL
+out of tree makefile
+module-init-tools
+module in kernel tree
+Kconfig and Makefile
+
+------------------------------------------------------------
+Character Device Drivers
+
+architecture
+user/kernel interface
+I/O subsystem
+VFS
+sysfs (devices, bus, drivers, classes),
+kobject/ktype/kset
+linux kernel driver model
+device files
+char driver
+initialization
+registration
+open, release
+cdev, cdev add, cdev del,…
+major/minor numbers
+udev, udevmonitor, udevadm
+
+
+--------------------------------------------------------------
+Interrupts
+
+interrupts vs. polling
+interrupt
+program sections
+reentrancy
+events
+interrupt handler
+shared interrupt handler
+interrupt flow
+interrupt control
+
+-------------------------------------------------------
+Deferring Work
+
+top/bottom halves
+softirqs
+tasklets
+work queues
+threaded interrupts

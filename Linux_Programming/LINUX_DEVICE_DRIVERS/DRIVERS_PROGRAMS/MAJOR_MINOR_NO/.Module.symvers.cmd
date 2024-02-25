@@ -1,0 +1,1 @@
+savedcmd_/home/pranav/Documents/LINUX_DEVICE_DRIVERS/DRIVERS_PROGRAMS/MAJOR_MINOR_NO/Module.symvers :=  scripts/mod/modpost -m -a      -o /home/pranav/Documents/LINUX_DEVICE_DRIVERS/DRIVERS_PROGRAMS/MAJOR_MINOR_NO/Module.symvers -T /home/pranav/Documents/LINUX_DEVICE_DRIVERS/DRIVERS_PROGRAMS/MAJOR_MINOR_NO/modules.order -i Module.symvers -e 
